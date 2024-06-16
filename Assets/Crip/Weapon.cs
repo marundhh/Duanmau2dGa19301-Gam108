@@ -28,8 +28,6 @@ public class Weapon : MonoBehaviour
                 Shoot();
             }
             
-
-
         }
         else
         {

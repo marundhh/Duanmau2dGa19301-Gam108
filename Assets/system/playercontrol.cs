@@ -41,6 +41,8 @@ public class playercontrol3 : MonoBehaviour
         Run();
         Flip();
         ClimbLander();
+        Attack();
+        
     }
     void Run()
     {
@@ -51,10 +53,19 @@ public class playercontrol3 : MonoBehaviour
             ani.SetBool("isJumping", false);
         else
             ani.SetBool("isJumping", true);
+       
 
 
 
+    }
+    void Attack()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
 
+            ani.SetTrigger("tancong");
+            return;
+        }
     }
     void Flip()
     {
