@@ -78,7 +78,6 @@ public class playercontrol3 : MonoBehaviour
         if (!feet.IsTouchingLayers(LayerMask.GetMask("Climbing")))
         {
             rig.gravityScale = startgravityscale;
-            if (col.IsTouchingLayers(LayerMask.GetMask("Climbing")))
                 ani.SetBool("isClimbing",false);
             return;
         }

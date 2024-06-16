@@ -105,7 +105,6 @@ GameObject:
   - component: {fileID: 857362326361213962}
   - component: {fileID: 1378743361563876545}
   - component: {fileID: 7638955404297872481}
-  - component: {fileID: 2388222446453357592}
   - component: {fileID: 1670243359615766868}
   m_Layer: 0
   m_Name: Player
@@ -326,41 +325,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!70 &2388222446453357592
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3682306415427778703}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0002016899, y: -0.39722502}
-  m_Size: {x: 0.5146218, y: 0.08055223}
-  m_Direction: 1
 --- !u!114 &1670243359615766868
 MonoBehaviour:
   m_ObjectHideFlags: 0
