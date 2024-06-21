@@ -308,6 +308,7 @@ GameObject:
   - component: {fileID: 267635988}
   - component: {fileID: 267635987}
   - component: {fileID: 267635992}
+  - component: {fileID: 267635993}
   m_Layer: 0
   m_Name: Idle_0
   m_TagString: Untagged
@@ -322,7 +323,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267635986}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -464,7 +465,7 @@ Transform:
   m_GameObject: {fileID: 267635986}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.95, y: -4.11, z: 0}
+  m_LocalPosition: {x: 0.6, y: -4.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -491,6 +492,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &267635993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267635986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a817b891a09bd48bb111d22e3b450d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameObject: {fileID: 267635986}
 --- !u!1001 &457695461
 PrefabInstance:
   m_ObjectHideFlags: 0
