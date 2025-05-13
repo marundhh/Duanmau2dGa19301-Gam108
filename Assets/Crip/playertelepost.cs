@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playertelepost : MonoBehaviour
+public class playerteleposthome : MonoBehaviour
 {
     private GameObject currentTeleporter;
 
