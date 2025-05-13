@@ -41,8 +41,11 @@ public class playercontrol3 : MonoBehaviour
         Run();
         Flip();
         ClimbLander();
+<<<<<<< HEAD
         Attack();
         
+=======
+>>>>>>> main
     }
     void Run()
     {
@@ -53,6 +56,7 @@ public class playercontrol3 : MonoBehaviour
             ani.SetBool("isJumping", false);
         else
             ani.SetBool("isJumping", true);
+<<<<<<< HEAD
        
 
 
@@ -66,6 +70,12 @@ public class playercontrol3 : MonoBehaviour
             ani.SetTrigger("tancong");
             return;
         }
+=======
+
+
+
+
+>>>>>>> main
     }
     void Flip()
     {
@@ -89,6 +99,10 @@ public class playercontrol3 : MonoBehaviour
         if (!feet.IsTouchingLayers(LayerMask.GetMask("Climbing")))
         {
             rig.gravityScale = startgravityscale;
+<<<<<<< HEAD
+=======
+            if (col.IsTouchingLayers(LayerMask.GetMask("Climbing")))
+>>>>>>> main
                 ani.SetBool("isClimbing",false);
             return;
         }

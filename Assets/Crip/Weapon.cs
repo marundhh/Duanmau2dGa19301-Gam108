@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using Unity.VisualScripting;
+=======
+>>>>>>> main
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
@@ -28,6 +31,10 @@ public class Weapon : MonoBehaviour
                 Shoot();
             }
             
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
         }
         else
         {
