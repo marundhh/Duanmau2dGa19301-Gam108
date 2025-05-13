@@ -310,9 +310,12 @@ GameObject:
   - component: {fileID: 267635992}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 267635993}
 =======
 >>>>>>> main
+=======
+>>>>>>> parent of f10a0e9 (pub)
 =======
 >>>>>>> parent of f10a0e9 (pub)
   m_Layer: 0
@@ -331,10 +334,14 @@ BoxCollider2D:
   m_GameObject: {fileID: 267635986}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Enabled: 1
 =======
   m_Enabled: 0
 >>>>>>> main
+=======
+  m_Enabled: 0
+>>>>>>> parent of f10a0e9 (pub)
 =======
   m_Enabled: 0
 >>>>>>> parent of f10a0e9 (pub)
@@ -481,10 +488,14 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0.6, y: -4.11, z: 0}
 =======
   m_LocalPosition: {x: -14.38, y: -4.11, z: 0}
 >>>>>>> main
+=======
+  m_LocalPosition: {x: 0.95, y: -4.11, z: 0}
+>>>>>>> parent of f10a0e9 (pub)
 =======
   m_LocalPosition: {x: 0.95, y: -4.11, z: 0}
 >>>>>>> parent of f10a0e9 (pub)
@@ -516,6 +527,7 @@ Animator:
   m_WriteDefaultValuesOnDisable: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &267635993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,6 +543,8 @@ MonoBehaviour:
   GameObject: {fileID: 267635986}
 =======
 >>>>>>> main
+=======
+>>>>>>> parent of f10a0e9 (pub)
 =======
 >>>>>>> parent of f10a0e9 (pub)
 --- !u!1001 &457695461

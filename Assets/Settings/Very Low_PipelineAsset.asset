@@ -84,6 +84,7 @@ MonoBehaviour:
     bayerMatrixTex: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_PrefilteringModeMainLightShadows: 0
   m_PrefilteringModeAdditionalLight: 1
   m_PrefilteringModeAdditionalLightShadows: 0
@@ -111,6 +112,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of f10a0e9 (pub)
+=======
+>>>>>>> parent of f10a0e9 (pub)
   m_PrefilteringModeMainLightShadows: 1
   m_PrefilteringModeAdditionalLight: 4
   m_PrefilteringModeAdditionalLightShadows: 1
@@ -136,7 +139,10 @@ MonoBehaviour:
   m_PrefilterScreenCoord: 0
   m_PrefilterNativeRenderPass: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> parent of f10a0e9 (pub)
 =======
 >>>>>>> parent of f10a0e9 (pub)
   m_ShaderVariantLogLevel: 0
